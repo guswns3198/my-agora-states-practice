@@ -1,6 +1,6 @@
 name: Bare Minimum Requirements
 
-on: [push, pull_request, git add ., git commit -m "Auto Deploy", git push origin reference]
+on: [push, pull_request]
 
 jobs:
   job1:
